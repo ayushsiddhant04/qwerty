@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flashcache-kv"
+version = "0.2.0"
+description = "Adaptive KV-Cache Compaction and KIVI-Inspired Asymmetric Quantization for LLM Inference"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["llm", "kv-cache", "quantization", "kivi", "chunkkv", "streaming-llm", "transformers", "pytorch", "compression"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Intended Audience :: Science/Research",
+]
+dependencies = [
+    "torch>=2.2.0",
+    "numpy>=1.25.0",
+    "pandas>=2.0.0",
+    "plotly>=5.18.0",
+    "streamlit>=1.32.0",
+    "tqdm>=4.66.0",
+    "psutil>=5.9.0",
+    "packaging>=23.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["flashcache*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"

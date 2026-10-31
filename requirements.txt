@@ -1,0 +1,16 @@
+# Core Deep Learning Framework
+torch>=2.2.0
+
+# Numerical, Visualization & Dashboard
+numpy>=1.25.0
+pandas>=2.0.0
+plotly>=5.18.0
+streamlit>=1.32.0
+
+# Utilities & System Monitoring
+tqdm>=4.66.0
+packaging>=23.0
+psutil>=5.9.0
+
+# Testing & Development
+pytest>=8.0.0
