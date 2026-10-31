@@ -68,3 +68,4 @@ Reconstruction accuracy is monitored via Normalized Mean Squared Error (NMSE) an
 
 $$\text{NMSE} = \frac{\|X - \hat{X}\|_F^2}{\|X\|_F^2 + \epsilon}$$
 $$\text{PSNR} = 10 \cdot \log_{10} \left( \frac{\max(X)^2}{\text{MSE}(X, \hat{X}) + \epsilon} \right)$$
+

@@ -171,3 +171,4 @@ class AdaptiveBudgetAllocator:
             budgets_dict[u_target] += 1
 
         return HeadBudgets(budgets=budgets_dict, total_budget=total_budget, policy=policy)
+

@@ -95,3 +95,4 @@ class BlockAllocator:
                 "reclaimable_bytes": reclaimable_bytes,
                 "total_reclaimed_bytes": self._total_reclaimed_bytes,
             }
+

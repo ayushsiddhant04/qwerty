@@ -75,3 +75,4 @@ class MemoryMonitor:
             "memory_reduction_pct": float(reduction_pct),
             "compression_ratio": float(ratio),
         }
+

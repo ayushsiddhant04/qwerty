@@ -113,3 +113,4 @@ This document details the exact input and output data contracts, mathematical fo
 ### Outputs
 - Decoded past-key-value cache ready for generation.
 - Real-time telemetry: physical bytes, compression ratio, latencies, and cache health.
+

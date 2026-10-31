@@ -73,3 +73,4 @@ def test_allocator_zero_budget_and_empty():
 
     res_empty_cands = allocator.allocate(total_budget=50, candidates=[])
     assert res_empty_cands.allocated_tokens == 0
+

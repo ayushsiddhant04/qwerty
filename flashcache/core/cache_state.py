@@ -25,3 +25,4 @@ class ChunkStatus(Enum):
     PROTECTED = "PROTECTED"     # Attention sink or recent local token (never evicted)
     SELECTED = "SELECTED"       # Retained under allocated budget (eligible for compression)
     EVICTED = "EVICTED"         # Slated for eviction/discarding
+

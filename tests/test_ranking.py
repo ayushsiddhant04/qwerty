@@ -82,3 +82,4 @@ def test_memory_accounting_conservation(ranked_pipeline_setup):
     assert result.original_bytes > 0
     assert result.original_bytes == result.retained_bytes + result.evicted_bytes
     assert 0.0 <= result.memory_reduction_pct <= 100.0
+

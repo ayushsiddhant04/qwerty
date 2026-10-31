@@ -200,3 +200,4 @@ if __name__ == "__main__":
         with open(args.json_out, "w") as f:
             json.dump(res, f, indent=2)
         print(f"\nSaved benchmark results to {args.json_out}")
+

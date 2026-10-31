@@ -37,3 +37,4 @@ def compute_compression_metrics(
         "uncompressed_mb": u_bytes / (1024 ** 2),
         "compressed_mb": c_bytes / (1024 ** 2),
     }
+

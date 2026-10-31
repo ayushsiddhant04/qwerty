@@ -91,3 +91,4 @@ class KIVIDequantizer:
             "psnr": float(psnr),
             "cosine_similarity": float(cos_sim),
         }
+

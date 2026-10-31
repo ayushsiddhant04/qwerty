@@ -58,3 +58,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     run_compression_benchmark(head_dim=args.head_dim)
+

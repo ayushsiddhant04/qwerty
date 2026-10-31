@@ -41,3 +41,4 @@ def compute_reconstruction_metrics(
         "psnr": float(psnr),
         "cosine_similarity": float(cos_sim),
     }
+

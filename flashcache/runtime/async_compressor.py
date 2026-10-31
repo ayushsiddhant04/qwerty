@@ -55,3 +55,4 @@ class AsyncCompressor:
 
     def shutdown(self, wait: bool = True):
         self.executor.shutdown(wait=wait)
+

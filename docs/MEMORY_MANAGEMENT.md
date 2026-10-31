@@ -80,3 +80,4 @@ If an unexpected tensor dimension, device mismatch, or numerical overflow occurs
 - The compressed artifact is discarded.
 - The active reference continues pointing to the original `ACTIVE_BF16` tensor.
 - Inference proceeds uninterrupted with full accuracy.
+

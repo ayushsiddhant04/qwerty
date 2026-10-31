@@ -58,3 +58,4 @@ class RankingResult:
             f"evicted_tokens={self.total_evicted_tokens}, "
             f"memory_reduction={self.memory_reduction_pct:.2f}%)"
         )
+

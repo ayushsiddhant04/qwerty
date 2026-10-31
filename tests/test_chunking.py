@@ -120,3 +120,4 @@ def test_chunk_builder_short_sequence():
     assert all(c.metadata.status == ChunkStatus.PROTECTED for c in head0_chunks)
     total_tokens = sum(c.metadata.token_count for c in head0_chunks)
     assert total_tokens == 10
+

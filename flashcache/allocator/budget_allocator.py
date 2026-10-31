@@ -43,3 +43,4 @@ class HeadBudgets:
             f"allocated={self.allocated_tokens}/{self.total_budget} tokens, "
             f"units={len(self.budgets)})"
         )
+

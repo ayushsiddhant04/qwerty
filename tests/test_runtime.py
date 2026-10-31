@@ -103,3 +103,4 @@ def test_hardware_memory_monitor():
     )
     assert stats["compression_ratio"] == pytest.approx(4.0, abs=1e-3)
     assert stats["memory_reduction_pct"] == pytest.approx(75.0, abs=1e-3)
+

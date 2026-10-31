@@ -101,3 +101,4 @@ def compute_asymmetric_scales_and_zeros(
     zeros = torch.round(-t_min / scales)
     zeros = torch.clamp(zeros, 0, q_max).to(torch.uint8)
     return scales, zeros
+

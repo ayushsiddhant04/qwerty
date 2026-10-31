@@ -31,3 +31,4 @@ FlashCache-KV is designed as an experimental systems research prototype explorin
 2. **Learned Head Budget Allocator**: Train a lightweight MLP policy model that predicts per-head retention budgets directly from hidden activation statistics.
 3. **PagedKV Integration**: Marry FlashCache-KV chunking with paged virtual memory block allocators (similar to vLLM's BlockManager).
 4. **Speculative Dequantization**: Prefetch and dequantize candidate chunks predicted by draft tokens in speculative decoding workflows.
+

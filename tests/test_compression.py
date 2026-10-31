@@ -148,3 +148,4 @@ def test_memory_safety_failure_handling_and_rollback():
     assert torch.equal(chunk.key, original_key_clone)
     assert torch.equal(chunk.value, original_value_clone)
     assert "Simulated compression" in chunk.metadata.error_log
+

@@ -143,3 +143,4 @@ sequenceDiagram
 1. **Non-Destructive Failure Mode**: If any quantization kernel encounters an exception or fails reconstruction checks, the block transitions to `COMPRESSION_FAILED` and the original `ACTIVE_BF16` tensor remains the primary reference. No corrupted cache is ever returned to the model.
 2. **Positional Fidelity**: Unlike naive adjacent vector merging which introduces RoPE phase distortion, FlashCache preserves exact token position indices through chunk metadata and individual vector dequantization.
 3. **No Unaccounted Memory**: Memory calculations strictly aggregate data buffers, quantization scales, zero-points, and tracking indices.
+

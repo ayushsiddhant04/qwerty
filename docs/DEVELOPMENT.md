@@ -79,3 +79,4 @@ streamlit run app.py
   - `fix(runtime): ensure BF16 source storage is retained until quantization validation completes`
 - Never commit `.venv/`, `.env`, checkpoint tensors, or large benchmark outputs.
 - Verify working tree with `git status` prior to committing.
+

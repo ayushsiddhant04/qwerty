@@ -90,3 +90,4 @@ class KVChunk:
             f"score={self.metadata.importance_score:.4f}, "
             f"state={self.metadata.state.value}, status={self.metadata.status.value})"
         )
+

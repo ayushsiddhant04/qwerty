@@ -139,3 +139,4 @@ class CompressionManager:
             raise ValueError(f"{name} scales contain non-positive values")
         if comp.packed_data.numel() == 0:
             raise ValueError(f"{name} packed data buffer is empty")
+

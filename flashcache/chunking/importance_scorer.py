@@ -99,3 +99,4 @@ class ImportanceScorer:
             "attention_score": attention_score,
             "norm_score": norm_score,
         }
+
